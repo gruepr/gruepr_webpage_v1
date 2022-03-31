@@ -1,16 +1,16 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>gruepr</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- CSS Styling -->
-    <link rel='stylesheet' href='style.css'>
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- CSS Styling -->
+    <link rel='stylesheet' href='style.css'>
 
   </head>
   <body>
@@ -27,19 +27,63 @@
     </div>
     </nav>
     <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
-        <div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">(embed the explainer video)
-
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://youtube.com/embed/Ja-PF068tII" allowfullscreen></iframe>
-              </div>
-
+        <!-- Home Page -->
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            Home page 
 
         </div>
+
+        <!-- About Page -->
+        <div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+            (embed the explainer video)
+
+            <p class = "p-5 font-weight-bold h3">
+                Explainer video
+            </p>
+
+            <div class="embed-responsive embed-responsive-16by9 w-75 align-items-center">
+                <iframe class="embed-responsive-item youtube" src="https://youtube.com/embed/Ja-PF068tII" allowfullscreen></iframe>
+            </div>
+
+        </div>
+
+        <!-- Download Page -->
         <div class="tab-pane fade" id="nav-download" role="tabpanel" aria-labelledby="nav-download-tab">(a break down by OS)</div>
-        <div class="tab-pane fade" id="nav-tutorials" role="tabpanel" aria-labelledby="nav-tutorials-tab">(include the YouTube tutorial videos)</div>
-        <div class="tab-pane fade" id="nav-source-code" role="tabpanel" aria-labelledby="nav-source-code-tab">...</div>
-        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+
+        <!-- Tutorials Page -->
+        <div class="tab-pane fade" id="nav-tutorials" role="tabpanel" aria-labelledby="nav-tutorials-tab">
+            (include the YouTube tutorial videos)
+
+            <p class = "p-5 font-weight-bold h3">
+                How to use gruepr, video 1: SurveyMaker
+            </p>
+
+            <div class="embed-responsive embed-responsive-16by9 w-75 align-items-center">
+                <iframe class="embed-responsive-item youtube" src="https://www.youtube.com/embed/w6_hDQkOhO4" allowfullscreen></iframe>
+            </div>
+
+            <p class = "p-5 font-weight-bold h3">
+                How to use gruepr, video 2: Forming Teams
+            </p>
+
+            <div class="embed-responsive embed-responsive-16by9 w-75 align-items-center">
+                <iframe class="embed-responsive-item youtube" src="https://www.youtube.com/embed/kzSFAirY24Y" allowfullscreen></iframe>
+            </div>
+            
+
+        </div>
+
+        <!-- Source Code Page -->
+        <div class="tab-pane fade" id="nav-source-code" role="tabpanel" aria-labelledby="nav-source-code-tab">
+            Include Source Code here
+        
+        </div>
+       
+        <!-- Contact Page -->
+        <div class="tab-pane fade" id="nav-contact-code" role="tabpanel" aria-labelledby="nav-contact-tab">
+            Contact/Feedback ?
+        
+        </div>
 
 
     </div>
