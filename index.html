@@ -161,38 +161,90 @@
                 <br><br>
             </p>
 
-            <p class = "text-center h4 border border-success rounded" style = "background-color: #72caaf;">
-                <strong>Q:</strong> How do I name each of my teams?
-                <br><br>
-                <strong>A:</strong> Use “Set team names:” drop-down list selection on the bottom right after you load in your data to gruepr and make optimal teams! 
-                You even have the option to make custom team names.
-                <br><br>
-                <img id="grueprQnA1" src="images/grueprQnA1.png" alt="img here" width="80%" height="80%">
-            </p>
-            <br><br>
+            <!--QUESTION 1:-->
+            <div id="accordion">
+                <div class="card">
+                  <div class="card-header" id="headingOne" style = "background-color: #72caaf;">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" >
+                        <strong>Q:</strong> How do I name each of my teams?
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <strong>A:</strong> Use “Set team names:” drop-down list selection on the bottom right after you load in your data to gruepr and make optimal teams! 
+                        You even have the option to make custom team names.
+                        <br><br>
+                        <img id="grueprQnA1" src="images/grueprQnA1.png" alt="img here" width="80%" height="80%">
+                        <br>
+                    </div>
+                  </div>
+                </div>
 
-            <p class = "text-center h4 border border-danger rounded" style = "background-color: #f283a5;">
-                <strong>Q:</strong> What if I want to make my own survey question(s)?
-                <br><br>
-                <strong>A:</strong> Simply add an "Attribute" to your survey in Surveymaker! 
-                    You can choose from a list of student responses as well.
-                <br><br>
-                <img id="grueprQnA2" src="images/grueprQnA2.png" alt="img here" width="80%" height="80%">                      
-            </p>
-            <br><br>
+        
+                <!--QUESTION 2:-->
+                <div class="card">
+                  <div class="card-header" id="headingTwo" style = "background-color: #f283a5;">
+                    <h5 class="mb-0">
+                        <button class="text-dark btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <strong>Q:</strong> What if I want to make my own survey question(s)?
+                        </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <strong>A:</strong> Simply add an "Attribute" to your survey in Surveymaker! 
+                        You can choose from a list of student responses as well.
+                        <br><br>
+                            <img id="grueprQnA2" src="images/grueprQnA2.png" alt="img here" width="80%" height="80%">                      
+                        <br>
+                    </div>
+                  </div>
+                </div>
+
+                
+                <!--QUESTION 3:-->
+                <div class="card">
+                  <div class="card-header" id="headingThree" style = "background-color: #e07424;">
+                    <h5 class="mb-0">
+                      <button class="text-dark btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <strong>Q:</strong> Can I make changes to the groups after they have been created?
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <strong>A:</strong> Yes! Once gruepr creates the optimal teams for you, go ahead to click and drag students or teams to the position you want.
+                        <br><br>
+                        <img id="grueprQnA3" src="images/grueprQnA3.png" alt="img here" width="80%" height="80%">           
+                        <br>
+                    </div>
+                  </div>
+                </div>
 
 
-            <p class = "text-center h4 border border-warning rounded" style = "background-color: #e07424;">
-                <strong>Q:</strong> Can I make changes to the groups after they have been created?
-                <br><br>
-                <strong>A:</strong> Yes! Once gruepr creates the optimal teams for you, go ahead to click and drag students or teams to the position you want.
-                <br><br>
-                <img id="grueprQnA3" src="images/grueprQnA3.png" alt="img here" width="80%" height="80%">           
-            </p>
-            <br><br>
+                <!--QUESTION 4:-->
+                <div class="card">
+                    <div class="card-header" id="headingFour" style = "background-color: #8ec9ee;">
+                      <h5 class="mb-0">
+                        <button class="text-dark btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          <strong>Q:</strong> How do the weighted rules work?
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                      <div class="card-body">
+                          <strong>A:</strong> The gruepr algorithm first focuses on satisfying the unweighted rules (Team size, Gender, URM, required/requested teammates), then tries to satisfy the weighted rules (Attributes and meeting times).
+                          <br><br>
 
-        </div>
+                      </div>
+                    </div>
+                  </div>
 
+              </div>
+
+        <br>
 
         <!-- Source Code Page -->
         <div class="tab-pane fade" id="nav-source-code" role="tabpanel" aria-labelledby="nav-source-code-tab">
@@ -215,7 +267,6 @@
         </div>
 
         <!-- Contact Page -->
-        <!-- Source Code Page -->
         <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
             <p class = "p-3 font-weight-bold h3 text-center">
                 Contact
