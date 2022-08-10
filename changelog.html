@@ -37,6 +37,26 @@
     </h1>
 
     <h2 class="text-center p-3">
+        11.0 - MAJOR UPDATE
+    </h2>
+
+        <ul>
+            <li>fully integrated SurveyMaker and gruepr with Canvas and Google (NOTE: Canvas in beta--for now uses a user-generated token instead of OAuth token)</li>
+            <li>moved all https calls to be direct from program instead of thru browser, removing all use of browser except OAuth login as needed</li>
+            <li>create Canvas survey (quiz) and Google Form directly from surveymaker</li>
+            <li>download results of Canvas survey and Google Form directly from gruepr</li>
+            <li>upload created teams to Canvas</li>
+            <li>saves and uses refresh tokens to reduce need for re-authorization every time</li>
+            <li>moved Windows binary to non-static build with OpenSSL</li>
+            <li>implemented an installation program for Windows now that non-static build</li>
+            <li>enable custom attribute response options from within SurveyMaker</li>
+            <li>when adjusting schedules to class timezone, now uses the same style of time name (e.g., "1:00pm" vs "13:00") from the survey within the UI</li>
+            <li>improved/corrected display timezone in tooltips and table displays, especially when the value is unknown</li>
+            <li>now correctly handles attributes that are both ordered and multi-valued ("multiordered")</li>
+        </ul>
+        
+
+    <h2 class="text-center p-3">
         10.9
     </h2>
 
